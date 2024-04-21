@@ -35,7 +35,7 @@ int main(void)
    {
       voltage=pot.read();                   // voltage reading (0-1) from pot
       voltage1=3.33*voltage;                // scale to 3.33 volts
-      LCD.locate(2,1);                      // 4th column 2nd row
+      LCD.locate(2,1);                      // 3rd column 2nd row
       sprintf(buffer,"%5.3f  %5.3f",
       voltage,voltage1);                    // voltage to string in buffer
       LCD.print(buffer);                    // print buffer on lcd
