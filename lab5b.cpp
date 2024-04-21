@@ -28,8 +28,8 @@ int main(void)
    }
    LCD.clear();                             // clear lcd screen
    LCD.locate(0,0);                         // 1st column 1st row
-   sprintf(buffer,"Reading Voltage");
-   LCD.locate(1,0);
+   sprintf(buffer,"Reading  Voltage");
+ //  LCD.locate(1,0);
    LCD.print(buffer);
    LCD.setRGB(0x00,0x00,0xff);              // set background to blue
    for(;;)                                  // infinite loop
