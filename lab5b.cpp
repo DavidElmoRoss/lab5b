@@ -1,6 +1,6 @@
 /*
     Title:  Program to show RAW data from POT and equivalent Voltage
-    Author: YOUR NAME HEE
+    Author: YOUR NAME HERE
     Date:   Today's DATE HERE
     Description:    Program to show RAW data from POT and equivalent 
                     Voltage by multiplying the RAW data by 3.3
